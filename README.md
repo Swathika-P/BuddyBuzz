@@ -98,6 +98,24 @@ The application should now be running on `http://localhost:3000` for the fronten
 - **Read** and engage with posts from other users.
 - **Add** or **remove** friends to manage your social circle.
 
+## Screenshots
+Here are some screenshots of the BuddyBuzz application:
+
+### Register Page
+![Register Page](client/public/screenshots/register-page.png)
+
+### Login Page
+![Login Page](client/public/screenshots/login-page.png)
+
+### Home Page
+![Home Page](client/public/screenshots/home-page.png)
+
+### Profile Page (Self - Dark Theme)
+![Profile Page - Self](client/public/screenshots/profile-page-self.png)
+
+### Profile Page (Friend - Light Theme)
+![Profile Page - Friend](client/public/screenshots/profile-page-friend.png)
+
 ## Contributing
 We welcome contributions to enhance BuddyBuzz. To contribute:
 1. Fork the repository.
