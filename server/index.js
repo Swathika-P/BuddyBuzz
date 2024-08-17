@@ -59,6 +59,8 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
+mongoose.set('strictQuery', false); 
+
 const PORT = process.env.PORT || 6001;
 mongoose
   .connect(process.env.MONGO_URL, {
@@ -73,5 +75,4 @@ mongoose
     // Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect`));
-
-  mongoose.set('strictQuery', false);
+  
