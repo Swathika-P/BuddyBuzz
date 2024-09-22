@@ -24,7 +24,7 @@ const __dirname = path.dirname(__filename);
 dotenv.config();
 
 const corsOptions = {
-  origin: process.env.APPLICATION_URL,
+  origin: ['http://localhost:3000','https://buddybuzz-frontend.vercel.app'],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE'
 };
 
